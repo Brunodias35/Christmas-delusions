@@ -11,33 +11,33 @@ public class adolecente : MonoBehaviour
     }
     [SerializeField] GameObject presente;
     [SerializeField] GameObject carvao;
-    float spedUp = 20f;
-    float spedBaixo = 10f;
+    float spedUp = 50f;
+    float spedBaixo = 0.8f;
     float spedDireita = 7f;
     // Update is called once per frame
     void Update()
     {
         transform.position -= new Vector3(0f, spedBaixo * Time.deltaTime, 0f);
-        // movimentação
-        if (Input.GetKey(KeyCode.W))
+        
+       
+        if (transform.position.y <= 4.49f)
         {
-            transform.position += new Vector3(0f, spedUp * Time.deltaTime, 0f);
-        }
-        else
-        if (transform.position.y >= 1.37f)
-        {
-            transform.position -= new Vector3(0f, 25 * Time.deltaTime, 0f);
+            if (Input.GetKey(KeyCode.W))
+            {
+                transform.position += new Vector3(0f, spedUp * Time.deltaTime, 0f);
+            }
+
         }
         if (Input.GetKey(KeyCode.D))
         {
             transform.position += new Vector3(spedDireita * Time.deltaTime, 0f, 0f);
         }
         // instancia o presente e o carvao
-        if (Input.GetKey(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             Instantiate(presente, transform.position, Quaternion.identity);
         }
-        if (Input.GetKey(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             Instantiate(carvao, transform.position, Quaternion.identity);
         }
@@ -45,4 +45,5 @@ public class adolecente : MonoBehaviour
 
     }
 }
+
 
