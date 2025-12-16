@@ -1,1 +1,48 @@
+using UnityEngine;
+using System;
+using System.Collections;
+
+public class adolecente : MonoBehaviour
+{
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+
+    }
+    [SerializeField] GameObject presente;
+    [SerializeField] GameObject carvao;
+    float spedUp = 20f;
+    float spedBaixo = 10f;
+    float spedDireita = 7f;
+    // Update is called once per frame
+    void Update()
+    {
+        transform.position -= new Vector3(0f, spedBaixo * Time.deltaTime, 0f);
+        // movimentação
+        if (Input.GetKey(KeyCode.W))
+        {
+            transform.position += new Vector3(0f, spedUp * Time.deltaTime, 0f);
+        }
+        else
+        if (transform.position.y >= 1.37f)
+        {
+            transform.position -= new Vector3(0f, 25 * Time.deltaTime, 0f);
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.position += new Vector3(spedDireita * Time.deltaTime, 0f, 0f);
+        }
+        // instancia o presente e o carvao
+        if (Input.GetKey(KeyCode.Q))
+        {
+            Instantiate(presente, transform.position, Quaternion.identity);
+        }
+        if (Input.GetKey(KeyCode.E))
+        {
+            Instantiate(carvao, transform.position, Quaternion.identity);
+        }
+
+
+    }
+}
 
