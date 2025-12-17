@@ -6,9 +6,11 @@ TagManager:
   tags:
   - adolecente
   - chao
-  - casa
-  - chamineBoa
-  - chamineRuim
+  - CasaBoa
+  - CasaRuim
+  - CasaNeutra
+  - presente
+  - carvao
   layers:
   - Default
   - TransparentFX

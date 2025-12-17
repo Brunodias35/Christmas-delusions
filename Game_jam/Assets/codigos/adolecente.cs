@@ -14,6 +14,8 @@ public class adolecente : MonoBehaviour
     [SerializeField] GameObject CasaBoa;
     [SerializeField] GameObject CasaRuim;
     [SerializeField] GameObject CasaNeutra;
+    bool movimentoAdole = true;
+    bool inimovi = true;
     float Velocidade = 10f;
     float spedUp = 7f;
     float spedBaixo = 7f;
@@ -58,20 +60,20 @@ public class adolecente : MonoBehaviour
 
         //intacia as casa random
         timeCasa += Time.deltaTime;
-        if(timeCasa == 3f)
+        if(timeCasa >= 2f)
         {
-
+            timeCasa = 0f;
             if (next == 1)
             {
-                Instantiate(CasaBoa, transform.position = new Vector3(12.64f, -2.77f, 0f), Quaternion.identity);
+                Instantiate(CasaBoa, transform.position, Quaternion.identity);
             }
             if (next == 2)
             {
-                Instantiate(CasaRuim, transform.position = new Vector3(12.64f, -2.77f, 0f), Quaternion.identity);
+                Instantiate(CasaRuim, transform.position, Quaternion.identity);
             }
             if (next == 3)
             {
-                Instantiate(CasaNeutra, transform.position = new Vector3(12.64f, -2.77f, 0f), Quaternion.identity);
+                Instantiate(CasaNeutra, transform.position, Quaternion.identity);
             }
 
         }
