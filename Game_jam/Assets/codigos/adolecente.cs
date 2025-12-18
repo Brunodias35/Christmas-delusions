@@ -24,7 +24,7 @@ public class adolecente : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+    
         int next = Random.Range(0, 4);
 
         if (transform.position.y <= 4.30f)
@@ -57,10 +57,10 @@ public class adolecente : MonoBehaviour
         {
             Instantiate(carvao, transform.position, Quaternion.identity);
         }
-
+        
         //intacia as casa random
         timeCasa += Time.deltaTime;
-        if(timeCasa >= 2f)
+        if (timeCasa >= 1f)
         {
             timeCasa = 0f;
             if (next == 1)
@@ -77,9 +77,34 @@ public class adolecente : MonoBehaviour
             }
 
         }
-           
+         
     }
-       
-    
-  
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag == "municaoIni")
+        {
+            Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.tag == "CasaBoa")
+        {
+            Destroy(gameObject);
+        }
+        if (collision.gameObject.tag == "CasaRuim")
+        {
+            Destroy(gameObject);
+        }
+        if (collision.gameObject.tag == "CasaNeutra")
+        {
+            Destroy(gameObject);
+        }
+    }
+
+
+
 }
+
+
+
+
+
+
