@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 0069f1d5c0ae72543b944a14ccdebbbd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8098133328593063759
+    second: Nata Inesperado-Recovered5_0
+  - first:
+      213: 2581944013273801974
+    second: Nata Inesperado-Recovered5_1
+  - first:
+      213: 1978077286349585624
+    second: Nata Inesperado-Recovered5_2
+  - first:
+      213: 7994832659394067949
+    second: Nata Inesperado-Recovered5_3
+  - first:
+      213: -2968742687360181467
+    second: Nata Inesperado-Recovered5_4
+  - first:
+      213: 5101263738664502207
+    second: Nata Inesperado-Recovered5_5
+  - first:
+      213: -7030339307407490073
+    second: Nata Inesperado-Recovered5_6
+  - first:
+      213: -8494472429333171
+    second: Nata Inesperado-Recovered5_7
+  - first:
+      213: -3147993240447488114
+    second: Nata Inesperado-Recovered5_8
+  - first:
+      213: 5339420234260420173
+    second: Nata Inesperado-Recovered5_9
+  - first:
+      213: -346427753191778786
+    second: Nata Inesperado-Recovered5_10
+  - first:
+      213: -905894579068547721
+    second: Nata Inesperado-Recovered5_11
+  - first:
+      213: 8551211422198163756
+    second: Nata Inesperado-Recovered5_12
+  - first:
+      213: 651654667566395448
+    second: Nata Inesperado-Recovered5_13
+  - first:
+      213: 6297591772164506737
+    second: Nata Inesperado-Recovered5_14
+  - first:
+      213: 7749214536771831096
+    second: Nata Inesperado-Recovered5_15
+  - first:
+      213: 1399375035309292918
+    second: Nata Inesperado-Recovered5_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Nata Inesperado-Recovered5_0
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 340
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b07575b4a6ad9f80800000000000000
+      internalID: -8098133328593063759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nata Inesperado-Recovered5_1
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 331
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f4a12d7668e4d320800000000000000
+      internalID: 2581944013273801974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nata Inesperado-Recovered5_2
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 335
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dcb227cfca837b10800000000000000
+      internalID: 1978077286349585624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nata Inesperado-Recovered5_3
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 245
+        width: 156
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dedffddf1f953fe60800000000000000
+      internalID: 7994832659394067949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nata Inesperado-Recovered5_4
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 255
+        width: 66
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b9b524148ecc6d0800000000000000
+      internalID: -2968742687360181467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nata Inesperado-Recovered5_5
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 262
+        width: 57
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3cda8b7545bc640800000000000000
+      internalID: 5101263738664502207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nata Inesperado-Recovered5_6
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 295
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3c283f5a73f6e90800000000000000
+      internalID: -7030339307407490073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nata Inesperado-Recovered5_7
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 297
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d459b448252d1eff0800000000000000
+      internalID: -8494472429333171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nata Inesperado-Recovered5_8
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 279
+        width: 153
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8febcb93d41054d0800000000000000
+      internalID: -3147993240447488114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nata Inesperado-Recovered5_9
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 279
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4610a1e96e691a40800000000000000
+      internalID: 5339420234260420173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nata Inesperado-Recovered5_10
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 276
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16daae3bcd313bf0800000000000000
+      internalID: -346427753191778786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nata Inesperado-Recovered5_11
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 265
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77dcaa21ead9d63f0800000000000000
+      internalID: -905894579068547721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nata Inesperado-Recovered5_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 248
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2962637b710ca670800000000000000
+      internalID: 8551211422198163756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nata Inesperado-Recovered5_13
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 256
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8303580b7742b0900800000000000000
+      internalID: 651654667566395448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nata Inesperado-Recovered5_14
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 238
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174c948c95a856750800000000000000
+      internalID: 6297591772164506737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nata Inesperado-Recovered5_15
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 237
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8350498609dba8b60800000000000000
+      internalID: 7749214536771831096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nata Inesperado-Recovered5_16
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 243
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67df82f2e249b6310800000000000000
+      internalID: 1399375035309292918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Nata Inesperado-Recovered5_0: -8098133328593063759
+      Nata Inesperado-Recovered5_1: 2581944013273801974
+      Nata Inesperado-Recovered5_10: -346427753191778786
+      Nata Inesperado-Recovered5_11: -905894579068547721
+      Nata Inesperado-Recovered5_12: 8551211422198163756
+      Nata Inesperado-Recovered5_13: 651654667566395448
+      Nata Inesperado-Recovered5_14: 6297591772164506737
+      Nata Inesperado-Recovered5_15: 7749214536771831096
+      Nata Inesperado-Recovered5_16: 1399375035309292918
+      Nata Inesperado-Recovered5_2: 1978077286349585624
+      Nata Inesperado-Recovered5_3: 7994832659394067949
+      Nata Inesperado-Recovered5_4: -2968742687360181467
+      Nata Inesperado-Recovered5_5: 5101263738664502207
+      Nata Inesperado-Recovered5_6: -7030339307407490073
+      Nata Inesperado-Recovered5_7: -8494472429333171
+      Nata Inesperado-Recovered5_8: -3147993240447488114
+      Nata Inesperado-Recovered5_9: 5339420234260420173
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

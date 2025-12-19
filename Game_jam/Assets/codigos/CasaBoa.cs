@@ -1,7 +1,10 @@
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class CasaBoa : MonoBehaviour
 {
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -11,7 +14,7 @@ public class CasaBoa : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float Velocidade = 11f;
+        float Velocidade = 8f;
         transform.position -= new Vector3(Velocidade * Time.deltaTime ,0f,0f);
         if (transform.position.x <= -11.43)
         {
@@ -22,11 +25,14 @@ public class CasaBoa : MonoBehaviour
     {
         if(collision.gameObject.tag == "presente")
         {
+
+            adolecente.pontos++;
             Destroy(collision.gameObject);
 
         }
         if (collision.gameObject.tag == "carvao")
         {
+            adolecente.pontos--;
             Destroy(collision.gameObject);
 
         }

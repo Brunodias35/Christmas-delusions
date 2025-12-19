@@ -1,9 +1,14 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 
 
 public class adolecente : MonoBehaviour
 {
+    public static int pontos;
+
+    [SerializeField] Text score;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -24,7 +29,17 @@ public class adolecente : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-    
+
+        score.text = pontos.ToString();
+
+
+        if (pontos < 0) {
+            pontos = 0;
+            SceneManager.LoadScene("Menu");
+
+        }
+
+
         int next = Random.Range(0, 4);
 
         if (transform.position.y <= 4.30f)
@@ -49,11 +64,11 @@ public class adolecente : MonoBehaviour
         }
 
         // instancia o presente e o carvao
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             Instantiate(presente, transform.position, Quaternion.identity);
         }
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             Instantiate(carvao, transform.position, Quaternion.identity);
         }
@@ -75,7 +90,7 @@ public class adolecente : MonoBehaviour
             {
                 Instantiate(CasaNeutra, transform.position, Quaternion.identity);
             }
-
+            
         }
          
     }
@@ -88,14 +103,17 @@ public class adolecente : MonoBehaviour
         if (collision.gameObject.tag == "CasaBoa")
         {
             Destroy(gameObject);
+            SceneManager.LoadScene("Menu");
         }
         if (collision.gameObject.tag == "CasaRuim")
         {
             Destroy(gameObject);
+            SceneManager.LoadScene("Menu");
         }
         if (collision.gameObject.tag == "CasaNeutra")
         {
             Destroy(gameObject);
+            SceneManager.LoadScene("Menu");
         }
     }
 

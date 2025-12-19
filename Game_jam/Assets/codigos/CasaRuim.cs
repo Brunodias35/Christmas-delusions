@@ -11,7 +11,7 @@ public class CasaRuim : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float Velocidade = 11f;
+        float Velocidade = 8f;
         transform.position -= new Vector3(Velocidade * Time.deltaTime, 0f, 0f);
         if (transform.position.x <= -11.43)
         {
@@ -22,11 +22,13 @@ public class CasaRuim : MonoBehaviour
     {
         if (collision.gameObject.tag == "presente")
         {
+            adolecente.pontos--;
             Destroy(collision.gameObject);
 
         }
         if (collision.gameObject.tag == "carvao")
         {
+            adolecente.pontos++;
             Destroy(collision.gameObject);
 
         }
